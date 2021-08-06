@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     //val : 불변, var : 가변, 타입은 변경 불가
     //lateinit : 변수 생성은 미리 하고 초기화는 나중에, 초기화 전까지 변수 사용 금지
+    //커밋 푸시 재시도
     lateinit var binding:ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
