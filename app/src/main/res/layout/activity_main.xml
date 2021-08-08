@@ -136,6 +136,21 @@
                 android:textStyle="bold"
                 android:textSize="20dp"/>
 
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#F694B5"
+                android:text="SAVE"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/alarmBtn" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </FrameLayout>
